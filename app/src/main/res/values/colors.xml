@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#47CEAC</color>
+    <color name="colorPrimaryDark">#47CEAC</color>
+
+    <!-- COR para aplicar nos botoes-->
+    <color name="colorAccent">#4A5A67</color>
+
+
+</resources>
