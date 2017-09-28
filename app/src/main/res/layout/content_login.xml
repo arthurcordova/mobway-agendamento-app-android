@@ -18,7 +18,7 @@
         android:layout_height="@android:dimen/app_icon_size"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="80dp"
         android:background="@android:drawable/editbox_background_normal"
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="59dp" />
+        app:layout_constraintHorizontal_bias="0.509" />
 
     <EditText
         android:id="@+id/editText2"
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_entrar"
         android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -63,13 +63,12 @@
         app:layout_constraintHorizontal_bias="0.509" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_cad"
         android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:autoText="false"
         android:background="@drawable/shapebutton"
         android:text="Cadastre-se"
         android:textAllCaps="?android:attr/windowOverscan"
@@ -77,10 +76,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_senha"
         android:layout_width="wrap_content"
         android:layout_height="18dp"
         android:layout_marginEnd="32dp"

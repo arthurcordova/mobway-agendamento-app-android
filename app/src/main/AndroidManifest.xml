@@ -19,6 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ContaActivity"
+            android:label="@string/title_activity_conta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SenhaActivity"
+            android:label="@string/title_activity_senha"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

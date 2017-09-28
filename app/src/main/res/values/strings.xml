@@ -5,5 +5,8 @@
     <string name="label_email">E-mail</string>
     <string name="label_senha">Senha</string>
     <string name="label_entrar">Entrar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_senha">SenhaActivity</string>
+    <string name="title_activity_conta">ContaActivity</string>
 
 </resources>
