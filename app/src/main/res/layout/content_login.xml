@@ -38,7 +38,7 @@
         android:layout_marginTop="0dp"
         android:background="@android:drawable/editbox_background_normal"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:text="Senha"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
