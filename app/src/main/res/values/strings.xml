@@ -8,5 +8,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_senha">SenhaActivity</string>
     <string name="title_activity_conta">ContaActivity</string>
+    <string name="title_activity_activit_cadastro">ActivitCadastroActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
 
 </resources>
